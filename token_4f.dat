@@ -1,0 +1,88 @@
+(PROGRAM_NAME: "W0403200")
+(SUBPROGRAM_NAME: "SubProgram-1")
+(SECTION_NAME: "Header")
+
+    (USER:  START TIME : 04/23/2018 02:56:01:671
+PROCESS : ICT)
+
+    (USER:  SN: X04032021816000925)
+(SECTION_NAME: "DISCHARGE")
+(SECTION_NAME: "CONTINUITIES")
+(SECTION_NAME: "LOWR")
+(SECTION_NAME: "SHORTS")
+(SECTION_NAME: "JUMPERS")
+(SECTION_NAME: "DELTA_SCAN")
+(SECTION_NAME: "SWITCHES")
+(SECTION_NAME: "CAPACITORS")
+(SECTION_NAME: "RESISTORS")
+
+(STEP:
+    (TYPE: RAW) (TIME: 04/23/2018 02:56:10 )
+     (SNAME: "RES[R78]")
+    (DESC: "R_150K_1%0.063W_0603 R_150K_1_0_063W_0603 BOTTOM -3.679 2.692  ") (PAGE:
+        (TYPE: RES) (PAGE_NAME: "R78") (FAIL_MSG: "FAIL LOW: Measured 93.9826 KO ;  Settle time < 487.5 mS") (STAT: FAIL)
+        (ANA:
+            (TYPE: RES) (STAT: FAIL_LOW)
+            (LOLIM: (VAL: 135) (SCALE: K) (UNIT: O) )
+            (NOMVAL: (VAL: 150) (SCALE: K) (UNIT: O) ) (MEASVAL: (VAL: 93.982613) (SCALE: K) (UNIT: O) )
+            (HILIM: (VAL: 165) (SCALE: K) (UNIT: O) )
+            (MEAS: (TPNUM: 51) (TPNAME: CH_P1.3) )
+            (STIM: (TPNUM: 3) (TPNAME: TP2) ,
+                  (TPNUM: 19) (TPNAME: CH_+3.3V_CH2) ) )
+        ) (STAT: FAIL))
+
+(STEP:
+    (TYPE: RAW) (TIME: 04/23/2018 02:56:10 )
+     (SNAME: "RES[R79]")
+    (DESC: "R_150K_1%0.063W_0603 R_150K_1_0_063W_0603 BOTTOM -3.779 2.692  ") (PAGE:
+        (TYPE: RES) (PAGE_NAME: "R79") (FAIL_MSG: "FAIL LOW: Measured 86.9307 KO ;  Settle time < 47.38 mS") (STAT: FAIL)
+        (ANA:
+            (TYPE: RES) (STAT: FAIL_LOW)
+            (LOLIM: (VAL: 135) (SCALE: K) (UNIT: O) )
+            (NOMVAL: (VAL: 150) (SCALE: K) (UNIT: O) ) (MEASVAL: (VAL: 86.930702) (SCALE: K) (UNIT: O) )
+            (HILIM: (VAL: 165) (SCALE: K) (UNIT: O) )
+            (MEAS: (TPNUM: 53) (TPNAME: CH_P1.4) )
+            (STIM: (TPNUM: 3) (TPNAME: TP2) ,
+                  (TPNUM: 19) (TPNAME: CH_+3.3V_CH2) ) )
+        ) (STAT: FAIL))
+
+(STEP:
+    (TYPE: RAW) (TIME: 04/23/2018 02:56:10 )
+     (SNAME: "RES[R80]")
+    (DESC: "R_150K_1%0.063W_0603 R_150K_1_0_063W_0603 BOTTOM -3.879 2.692  ") (PAGE:
+        (TYPE: RES) (PAGE_NAME: "R80") (FAIL_MSG: "FAIL LOW: Measured 73.3293 KO ;  Settle time < 51.06 mS") (STAT: FAIL)
+        (ANA:
+            (TYPE: RES) (STAT: FAIL_LOW)
+            (LOLIM: (VAL: 135) (SCALE: K) (UNIT: O) )
+            (NOMVAL: (VAL: 150) (SCALE: K) (UNIT: O) ) (MEASVAL: (VAL: 73.329346) (SCALE: K) (UNIT: O) )
+            (HILIM: (VAL: 165) (SCALE: K) (UNIT: O) )
+            (MEAS: (TPNUM: 57) (TPNAME: CH_P1.5) )
+            (STIM: (TPNUM: 3) (TPNAME: TP2) ,
+                  (TPNUM: 19) (TPNAME: CH_+3.3V_CH2) ) )
+        ) (STAT: FAIL))
+
+(STEP:
+    (TYPE: RAW) (TIME: 04/23/2018 02:56:10 )
+     (SNAME: "RES[R81]")
+    (DESC: "R_150K_1%0.063W_0603 R_150K_1_0_063W_0603 BOTTOM -3.954 2.692  ") (PAGE:
+        (TYPE: RES) (PAGE_NAME: "R81") (FAIL_MSG: "FAIL LOW: Measured 129.871 KO ;  Settle time < 0.46 mS") (STAT: FAIL)
+        (ANA:
+            (TYPE: RES) (STAT: FAIL_LOW)
+            (LOLIM: (VAL: 135) (SCALE: K) (UNIT: O) )
+            (NOMVAL: (VAL: 150) (SCALE: K) (UNIT: O) ) (MEASVAL: (VAL: 129.8714) (SCALE: K) (UNIT: O) )
+            (HILIM: (VAL: 165) (SCALE: K) (UNIT: O) )
+            (MEAS: (TPNUM: 68) (TPNAME: CH_P1.6) )
+            (STIM: (TPNUM: 3) (TPNAME: TP2) ,
+                  (TPNUM: 19) (TPNAME: CH_+3.3V_CH2) ) )
+        ) (STAT: FAIL))
+(SECTION_NAME: "DIODES")
+(SECTION_NAME: "LED")
+(SECTION_NAME: "TRANSISTORS")
+(SECTION_NAME: "ZENERS")
+(SECTION_NAME: "DISCHARGE2")
+(SECTION_NAME: "Trailer")
+(SECTION_NAME: "DISCHARGE")
+
+    (USER:  RESULT : FAIL)
+
+    (USER:  STOP TIME : 04/23/2018 02:56:15:968     )
