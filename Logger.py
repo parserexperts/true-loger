@@ -3,7 +3,7 @@ with open('new.dat', 'r') as infile:
 
 #The function below looks through token.dat file and creates a unique filename
 def main(loglist):
-    main_data = {'Client': 'CHoneywell',
+    main_data = {'Client': 'CMyCompany',
                  'Tester': 'NSpectrum',
                  'Process': 'PICT',
                  'Site': 'p20',
